@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Test your Knowledge</h1>
+        <form id="quiz">
+            <div class="question">
+                <p>1. What is the capital of India?</p>
+                <label><input type="radio" name="q1" value="correct"> Delhi</label>
+                <label><input type="radio" name="q1" value="wrong"> Lucknow</label>
+                <label><input type="radio" name="q1" value="wrong"> Mumbai</label>
+            </div>
+
+            <div class="question">
+                <p>2. How is known as Iron Man Of India?</p>
+               
+                <label><input type="radio" name="q2" value="wrong"> JawaharLal Nehru</label>
+                <label><input type="radio" name="q2" value="correct"> Sardar VallabhBhai Patel</label>
+                <label><input type="radio" name="q2" value="wrong"> Mahatma Gandhi</label>
+            </div>
+
+            <div class="question">
+                <p>3. How many shlokas in Bhagvad Gita?</p>
+              
+                <label><input type="radio" name="q3" value="wrong"> 500</label>
+                <label><input type="radio" name="q3" value="correct"> 700</label>
+                <label><input type="radio" name="q3" value="wrong"> 1000</label>
+            </div>
+
+            <div class="question">
+                <p>4.How many chapters are there  in Bhagvad Gita?</p>
+               
+                <label><input type="radio" name="q4" value="wrong"> 20</label>
+                <label><input type="radio" name="q4" value="wrong"> 27</label>
+                <label><input type="radio" name="q4" value="correct"> 18</label>
+            </div>
+
+            <div class="question">
+                <p>Who wrote Mahabharata?</p>
+                <label><input type="radio" name="q5" value="wrong"> Tulsidas</label>
+                <label><input type="radio" name="q5" value="correct"> Maharishi Ved Vyasa</label>
+                
+                <label><input type="radio" name="q5" value="wrong"> Maharishi Valmiki</label>
+            </div>
+
+            <button type="button" id="submit">Submit</button>
+            <button type="button" id="restart">Restart</button>
+
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
